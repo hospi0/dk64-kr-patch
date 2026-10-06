@@ -1,0 +1,25 @@
+# 허용 목록: 소스·문서·번역 텍스트만(ROM·빌드·my files·디컴파일 사본 금지)
+*
+!.gitignore
+!README.md
+!tools/
+!tools/*.py
+!docs/
+!docs/*.md
+!work/
+!work/text/
+!work/text/*.tsv
+!recomp/
+!recomp/find_func.py
+!recomp/mod/
+!recomp/mod/LICENSE
+!recomp/mod/build.sh
+!recomp/mod/build_stages.sh
+!recomp/mod/mod.toml
+!recomp/mod/mod.ld
+!recomp/mod/include/
+!recomp/mod/include/*.h
+!recomp/mod/src/
+!recomp/mod/src/kr.c
+!recomp/mod/src/bubble.c
+/recomp/mod/README.md

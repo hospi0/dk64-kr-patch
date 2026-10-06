@@ -1,0 +1,15 @@
+[manifest]
+id = "dk64_korean"
+version = "0.9.0"
+display_name = "Korean Translation (한글 패치)"
+description = "Donkey Kong 64 Korean translation: dialogue, menus, kong names and voiced intro captions."
+short_description = "Donkey Kong 64 Korean translation"
+authors = [ "hospi" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "dk64_korean"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
